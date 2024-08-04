@@ -17,14 +17,12 @@ class Tela4Activity : AppCompatActivity() {
             // Volta para Tela3
             val intent = Intent(this, Tela3Activity::class.java)
             startActivity(intent)
-            finish()
         }
 
         btnNext.setOnClickListener {
             // Vai para Tela1
             val intent = Intent(this, Tela1Activity::class.java)
             startActivity(intent)
-            finish()
         }
     }
 }
