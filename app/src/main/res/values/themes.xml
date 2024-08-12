@@ -1,9 +1,36 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Pdm_navigation" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <!-- Tema Monocromático -->
+    <style name="Mono" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/monoPrimary</item>
+        <item name="colorPrimaryDark">@color/monoDark</item>
+        <item name="colorAccent">@color/monoAccent</item>
+        <item name="colorSecondary">@color/monoPrimary</item>
+        <item name="background">@color/monoLight</item>
     </style>
 
-    <style name="Theme.Pdm_navigation" parent="Base.Theme.Pdm_navigation" />
+    <!-- Tema Triádico -->
+    <style name="Triad" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/triadPrimary</item>
+        <item name="colorPrimaryDark">@color/triadTertiary</item>
+        <item name="colorAccent">@color/triadAccent</item>
+        <item name="colorSecondary">@color/triadSecondary</item>
+        <item name="background">@color/triadPrimary</item>
+    </style>
+
+    <!-- Tema Quadrático -->
+    <style name="Quad" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/quadPrimary</item>
+        <item name="colorPrimaryDark">@color/quadTertiary</item>
+        <item name="colorAccent">@color/quadQuaternary</item>
+        <item name="colorSecondary">@color/quadSecondary</item>
+        <item name="background">@color/quadPrimary</item>
+    </style>
+
+    <!-- Tema Base -->
+    <style name="Base.Theme.Pdm_navigation" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.Pdm_navigation" parent="Mono" />
 </resources>

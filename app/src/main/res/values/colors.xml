@@ -2,4 +2,19 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="monoPrimary">#254ac5</color>
+    <color name="monoLight">#053cf0</color>
+    <color name="monoDark">#3a4770</color>
+    <color name="monoAccent">#ffff</color>
+
+    <color name="triadPrimary">#053cf0</color>
+    <color name="triadSecondary">#84f005</color>
+    <color name="triadTertiary">#f03605</color>
+    <color name="triadAccent">#ffff</color>
+
+    <color name="quadPrimary">#053cf0</color>
+    <color name="quadSecondary">#05f022</color>
+    <color name="quadTertiary">#f0b005</color>
+    <color name="quadQuaternary">#ffff</color>
 </resources>

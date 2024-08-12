@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tela4Activity">
+    tools:context=".Activity2"
+    android:background="?attr/background">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:background="?attr/colorSecondary"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,8 +36,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Tela 4"
-                android:textColor="@android:color/white"
+                android:text="2"
+                android:textColor="?attr/colorAccent"
                 android:textStyle="bold"
                 android:textSize="18sp"
                 android:layout_centerInParent="true"/>
@@ -55,10 +56,26 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Triádica"
+        android:textColor="?attr/colorAccent"
         app:layout_constraintTop_toBottomOf="@id/toolbar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="16dp"/>
 
+    <Button
+        android:id="@+id/sampleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample Button"
+        android:backgroundTint="?attr/colorPrimaryDark"
+        android:textColor="?attr/colorAccent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        tools:ignore="NotSibling" />
 </androidx.constraintlayout.widget.ConstraintLayout>
